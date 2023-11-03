@@ -1,0 +1,71 @@
+@import url("grid.css");
+@import url("image.css");
+@import url("nav.css");
+@import url("sidebar.css");
+
+@font-face {
+  font-family: aSpaceBold;
+  src: url(/../aSpaceBold.otf);
+}
+
+@font-face {
+  font-family: aSpaceLight;
+  src: url(/../aSpaceLightItalic.otf);
+}
+
+* {
+  color: whitesmoke;
+  background-color: black;
+}
+
+article {
+  font-size: large;
+  font-family: helvetica, sans-serif;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+
+.headerFooter {
+  font-size: 1.35em;
+  font-family: aSpaceLight, sans-serif;
+  color: d66c44;
+  text-align: left;
+  padding: 15px 0px 15px;
+  line-height: 1.5em;
+  height: 140px;
+}
+
+.headerspan {
+  color: whitesmoke;
+  font-family: aSpaceBold. aSpaceLight, sans-serif;
+  font-size: 1.6em;
+  background-color: #324856;
+  border-radius: 15px;
+  padding: 0px 8px;
+}
+
+.emphasis {
+  font-weight: bold;
+}
+
+.link {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.gridSpan {
+  height: 100px;
+  text-align: center;
+  width: 200%;
+  text-decoration: underline;
+}
+
+.flexGallary {
+  height: 260px;
+  width: auto;
+  align-items: center;
+  gap: 30px;
+}

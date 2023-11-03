@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "/css/home.css">
+    <title>&#128640 Spaceplace</title>
+  </head>
+  <div class = "container">
+    <body>
+      {% include "header.njk" %}
+        {{ content | safe }}
+      {% include "sidebar.njk" %}
+      {% include "footer.njk" %}
+    </body>
+  </div>
+</html>

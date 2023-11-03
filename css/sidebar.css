@@ -1,0 +1,13 @@
+aside {
+  font-family: aSpaceBold;
+  text-align: center;
+  font-size: 1.4em;
+  line-height: 2em;
+  padding: 0px 5px;
+  border: 3px dashed #d66c44;
+  height: 380px;
+}
+
+.sidebar {
+  text-align: center;
+}
